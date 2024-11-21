@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+#baslik{
+    font-family: "Dancing Script", cursive;;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    background-color: #333;
+}
+a{
+    text-decoration: none;
+}
+
+p{
+    padding: 1.6rem 0;
+}
+#text{
+    font-family: "Dancing Script", cursive;
+    font-size: 2rem;
+}
+
+header{
+    height: 46rem;
+
+}
+
+header .bg-image{
+    position: absolute;
+    background-image:url("psikolog.images/sitebaslik.png");
+    background-size: auto;
+    background-position: center;
+    height: 47rem;
+    width: 100%;
+    opacity: 0.3;
+    z-index: -1;
+}
+header h1{
+    padding: 12rem;
+    padding-bottom: 0;
+}
+
+.btn{
+    display: inline-block;
+    background: lightpink;
+    color: #fff;
+    border: solid 1px lightpink;
+    padding: 1.6rem 3.2rem;
+    margin: 0.5rem 0;
+    border-radius: 3rem;
+}
+.btn:hover{
+    background-color: darkorange;
+    transition: all 1s;
+}
+
+#section-a{
+    background-color: bisque;
+    padding: 3.2rem;
+    color: black;
+}
+.section-c{
+    background-color: bisque;
+    padding: 3.2rem;
+    color: black;
+}
+#giris{
+    width: 100%;
+}
+#ilk{
+    width: 100%;
+}
